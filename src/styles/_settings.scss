@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap');
+
+$font-1: 'Poppins';
+
+$color-1: #2c698d;
+$color-2: #21506b;
+$color-3: #2f3b52;
+$color-4: #252e42;
+$color-5: #45a3da;
+$black: #282828;
+$white: #ffffff;
+
+$border-radius: 10px;
+$border: 1px solid $color-5;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color: $white;
+  background-color: $color-4;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  cursor: pointer;
+}
+
+a:visited {
+  color: $white;
+}
+
+.home,
+.skills,
+.portfolio,
+.contact {
+  display: flex;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+
+.homeContent,
+.skillsContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+
+  @media screen and (max-width: 850px) {
+    margin-left: o !important;
+  }
+}
