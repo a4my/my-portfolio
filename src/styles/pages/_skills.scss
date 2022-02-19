@@ -36,7 +36,7 @@
         'L'
         'F';
 
-      .languageDispla {
+      .languageDisplay {
         grid-area: L;
       }
       .frameworksDisplay {
@@ -55,7 +55,7 @@
           width: 36%;
 
           &:nth-child(2) {
-            text-align: right;
+            text-align: center;
             width: 20%;
           }
           &:nth-child(3) {
@@ -75,6 +75,19 @@
       }
       .languagesList {
         padding-top: 0.5rem;
+
+        .container {
+          display: flex;
+
+          .active {
+            visibility: visible;
+            margin-right: 0.5rem;
+          }
+
+          .hidden {
+            visibility: hidden;
+          }
+        }
 
         li {
           color: $white;
@@ -120,10 +133,10 @@
       }
       h4 {
         font-size: 1.1rem;
-        color: $color-5;
+        color: $white;
       }
       h5 {
-        color: $white;
+        color: #ccc;
         padding: 0.5rem 0 0.5rem 1rem;
       }
       p {
@@ -153,7 +166,8 @@
           display: grid;
 
           i {
-            color: $color-5;
+            color: $white;
+            margin-right: 0.8rem;
           }
         }
       }
@@ -173,7 +187,7 @@
           }
           span {
             position: absolute;
-            transform: translateX(2.2rem);
+            transform: translate(1.8rem, -0.1rem);
           }
         }
       }
@@ -181,7 +195,7 @@
   }
 }
 @media screen and (max-width: 950px) {
-  .knowledgesContent {
+  .skillsContent {
     h3 {
       font-size: 1.2rem !important;
     }
@@ -198,7 +212,9 @@
   }
 }
 @media screen and (max-width: 850px) {
-  .knowledgesContent {
+  .skillsContent {
+    margin-left: 0 !important;
+
     h4 {
       font-size: 0.9rem !important;
     }
@@ -206,13 +222,59 @@
       font-size: 0.6rem !important;
       padding: 0.2rem 1rem !important;
     }
+
+    .languagesFrameworks {
+      .languagesList {
+        .active {
+          display: none !important;
+        }
+        .hidden {
+          visibility: visible !important;
+          margin-top: 0.5rem !important;
+        }
+      }
+    }
+
+    .experience {
+      p {
+        font-size: 1rem;
+      }
+    }
   }
 }
+
+@media screen and (max-width: 700px) {
+  .skills {
+    .experience {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+    .hobbies {
+      span {
+        transform: translateX(0.5rem) !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
-  .knowledgesContent {
+  .skillsContent {
     display: grid !important;
     grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr 180px 180px !important;
+    grid-template-rows: 500px 340px 180px 220px !important;
+
+    .languagesFrameworks {
+      .languagesList {
+        .active {
+          display: inline !important;
+        }
+        .hidden {
+          visibility: hidden !important;
+          margin-top: 0.5rem !important;
+        }
+      }
+    }
 
     .languages {
       grid-area: 1 !important;
@@ -220,6 +282,10 @@
     .experience {
       grid-area: 2 !important;
       margin-left: 0 !important;
+
+      p {
+        font-size: 0.8rem;
+      }
     }
     .otherSkills {
       grid-area: 3 !important;
@@ -228,6 +294,10 @@
     .hobbies {
       grid-area: 4 !important;
       margin-top: 0.5rem !important;
+
+      span {
+        transform: translateX(1.5rem) !important;
+      }
     }
   }
 }
