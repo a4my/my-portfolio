@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function ProgressBar(props) {
-  console.log(props)
   return (
     <div className={props.className}>
       <h3>{props.title}</h3>
@@ -18,7 +17,11 @@ export default function ProgressBar(props) {
 
           return (
             <div key={item.id} className="languagesList">
-              <li>{item.value}</li>
+              <div className="container">
+                <li className="active">{item.value}</li>
+                <img className="hidden" src={item.icon} alt="languages" />
+              </div>
+
               <div className="progressBar" style={{ width: progressBar }}></div>
             </div>
           )
