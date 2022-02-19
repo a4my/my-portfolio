@@ -7,31 +7,30 @@ export default function OtherSkills() {
       <div className="list">
         <ul>
           <li>
-            <i className="fas fa-check-square"></i>Express
+            <i className="fas fa-check"></i>Express
           </li>
           <li>
-            <i className="fas fa-check-square"></i>MongoDB
+            <i className="fas fa-check"></i>MongoDB
           </li>
           <li>
-            <i className="fas fa-check-square"></i>Github
+            <i className="fas fa-check"></i>Github
           </li>
           <li>
-            <i className="fas fa-check-square"></i>VS Code
+            <i className="fas fa-check"></i>VS Code
           </li>
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check-square"></i>French, English, Spanish,
-            Japanese
+            <i className="fas fa-check"></i>French, English, Spanish, Japanese
           </li>
           <li>
-            <i className="fas fa-check-square"></i>UI/UX Design
+            <i className="fas fa-check"></i>UI/UX Design
           </li>
           <li>
-            <i className="fas fa-check-square"></i>Final Cut Pro
+            <i className="fas fa-check"></i>Final Cut Pro
           </li>
           <li>
-            <i className="fas fa-check-square"></i>Cubase SX3
+            <i className="fas fa-check"></i>Cubase SX3
           </li>
         </ul>
       </div>
