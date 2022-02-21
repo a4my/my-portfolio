@@ -133,13 +133,13 @@
     }
     .infos {
       grid-area: 4;
-      color: $color-4;
-      cursor: pointer;
+      color: $white;
       font-size: 1.5rem;
       @include verticalCenter;
       transition: 0.2s;
 
       i {
+        cursor: pointer;
         transition: all 0.2s ease-out;
 
         &:hover {
