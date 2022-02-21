@@ -1,13 +1,13 @@
 .contact-form {
-  margin: 7% auto;
+  margin: 7% auto 3rem auto;
   max-width: 50%;
   position: relative;
   max-width: 350px;
-
   background: $color-1;
   padding: 1rem 3rem 0.2rem 3rem;
   // z-index: 2;
   border-radius: $border-radius;
+  border: $border;
   box-shadow: 0 1px 5px #222;
   min-width: 440px;
   min-height: 200px;

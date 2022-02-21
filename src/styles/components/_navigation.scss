@@ -5,7 +5,8 @@
   min-height: $minHeight;
   width: 264px;
   border-radius: $border-radius;
-  border: 1px solid $color-5;
+  border: $border;
+  box-shadow: $shadow;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
