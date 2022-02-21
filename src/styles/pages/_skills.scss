@@ -18,6 +18,7 @@
       background-color: $color-2;
       border-radius: $border-radius;
       border: $border;
+      box-shadow: $shadow;
       padding: 0.8rem;
     }
     h3 {
@@ -159,7 +160,7 @@
         width: 80%;
         height: 100%;
         margin: 0 auto;
-        justify-content: space-between;
+        justify-content: space-around;
 
         ul {
           height: 80%;
