@@ -21,7 +21,7 @@ export default function OtherSkills() {
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check"></i>French, English, Spanish, Japanese
+            <i className="fas fa-check"></i>JQuery
           </li>
           <li>
             <i className="fas fa-check"></i>UI/UX Design
