@@ -6,8 +6,8 @@ export default function Hobbies() {
       <h3>Interests</h3>
       <ul>
         <li>
-          <img src="./media/icons/science.svg" alt="" />
-          <span>Science</span>
+          <img src="./media/icons/language.svg" alt="" />
+          <span>Languages</span>
         </li>
         <li>
           <img src="./media/icons/rubgy.svg" alt="" />
