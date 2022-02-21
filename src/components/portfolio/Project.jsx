@@ -23,8 +23,8 @@ export default class Project extends Component {
         </div>
         <h3>{name}</h3>
         <img src={picture} alt="project" onClick={this.handleInfo} />
-        <span className="infos" onClick={this.handleInfo}>
-          <i className="fas fa-plus-circle"></i>
+        <span className="infos">
+          <i className="fas fa-plus-circle" onClick={this.handleInfo}></i>
         </span>
 
         {this.state.showInfo && (
