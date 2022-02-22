@@ -34,7 +34,7 @@
     display: grid;
     grid-template-rows: repeat(4, 1fr) 100px;
 
-    input,
+    .field,
     textarea {
       color: $white;
       background-color: $color-2;
@@ -49,19 +49,50 @@
       &::placeholder {
         color: $white;
         font-family: $font-1;
-        font-size: 1.2rem;
-      }
-
-      @media screen and (min-width: 1200px) {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
     }
-    input {
-      width: 100%;
 
-      @media screen and (max-width: 540px) {
-        width: 75%;
-        padding: 12px 0 6px;
+    .field {
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-left: 0.3rem;
+      }
+
+      input {
+        color: $white;
+        background-color: $color-2;
+        font-family: $font-1;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        width: 100%;
+        margin-left: 0.5rem;
+
+        &::placeholder {
+          color: $white;
+          font-family: $font-1;
+          font-size: 1rem;
+        }
+
+        @media screen and (max-width: 540px) {
+          width: 75%;
+          padding: 12px 0 6px;
+        }
+      }
+
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover,
+      input:-webkit-autofill:focus {
+        color: $white;
+        background-color: $color-2;
+        font-family: $font-1;
+        font-size: 1rem !important;
+        -webkit-text-fill-color: $white;
+        -webkit-box-shadow: 0 0 0px 1000px $color-2 inset;
+        transition: background-color 5000s ease-in-out 0s;
       }
     }
     .email-content {
@@ -84,46 +115,11 @@
         padding: 0.1rem 0.5rem;
         transform-origin: 50% 50%;
       }
-      // @keyframes dongle {
-      //   0% {
-      //     transform: translate(0px, 0px);
-      //   }
-      //   10% {
-      //     transform: translate(-10px, 0px);
-      //   }
-      //   20% {
-      //     transform: translate(10px, 0px);
-      //   }
-      //   30% {
-      //     transform: translate(-10px, 0px);
-      //   }
-      //   40% {
-      //     transform: translate(10px, 0px);
-      //   }
-      //   50% {
-      //     transform: translate(-10px, 0px);
-      //   }
-      //   60% {
-      //     transform: translate(10px, 0px);
-      //   }
-      //   70% {
-      //     transform: translate(-10px, 0px);
-      //   }
-      //   80% {
-      //     transform: translate(10px, 0px);
-      //   }
-      //   90% {
-      //     transform: translate(-10px, 0px);
-      //   }
-      //   100% {
-      //     transform: translate(0px, 0px);
-      //   }
-      // }
     }
 
     textarea {
+      padding: 0.5rem;
       resize: none;
-      padding: 24px 5px;
 
       @media screen and (max-width: 540px) {
         width: 75%;
