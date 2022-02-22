@@ -93,58 +93,72 @@ const ContactForm = () => {
   }
 
   return (
-    <form className="contact-form">
+    <form className="contact-form" autoComplete="off">
       <h2>Get in touch</h2>
       <p>* required fields</p>
       <div className="form-content">
-        <input
-          type="text"
-          id="name"
-          name="name"
-          required
-          onChange={e => setName(e.target.value)}
-          placeholder="name *"
-          value={name}
-        />
-        <input
-          type="text"
-          id="company"
-          name="company"
-          onChange={e => setCompany(e.target.value)}
-          placeholder="company"
-          value={company}
-        />
-        <input
-          type="text"
-          id="phone"
-          name="phone"
-          onChange={e => setPhone(e.target.value)}
-          placeholder="telephone"
-          value={phone}
-        />
+        <div className="field">
+          <i class="fas fa-user"></i>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            onChange={e => setName(e.target.value)}
+            placeholder="Name *"
+            value={name}
+          />
+        </div>
+        <div className="field">
+          <i class="fas fa-briefcase"></i>
+          <input
+            type="text"
+            id="company"
+            name="company"
+            onChange={e => setCompany(e.target.value)}
+            placeholder="Company"
+            value={company}
+          />
+        </div>
+        <div className="field">
+          <i class="fas fa-phone"></i>
+          <input
+            type="tel"
+            id="phone"
+            name="telephone"
+            onChange={e => setPhone(e.target.value)}
+            placeholder="Phone number"
+            value={phone}
+          />
+        </div>
         <div className="email-content">
           <label id="not-mail">Invalid email address</label>
-          <input
-            type="mail"
-            id="email"
-            name="email"
-            required
-            onChange={e => setEmail(e.target.value)}
-            placeholder="email *"
-            value={email}
-          />
+          <div className="field">
+            <i class="fas fa-at"></i>
+
+            <input
+              type="mail"
+              id="email"
+              name="email"
+              required
+              onChange={e => setEmail(e.target.value)}
+              placeholder="Email address *"
+              value={email}
+            />
+          </div>
         </div>
         <textarea
           id="message"
           name="message"
           onChange={e => setMessage(e.target.value)}
-          placeholder="message *"
+          placeholder="Your message *"
           value={message}
           required
         />
         <div className="btnContainer">
           <input
             id="submitBtn"
+            name="submitBtn"
             type="submit"
             value="Send email"
             onClick={handleSubmit}
