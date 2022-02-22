@@ -39,10 +39,15 @@
         font-size: 1.3rem;
         text-transform: uppercase;
         letter-spacing: 0.2rem;
-        margin-top: 1.5rem;
+        margin: 1.5rem auto 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 14ch;
+        animation: typing 2s steps(11);
       }
     }
   }
+
   .navigation {
     grid-area: 2;
     padding: 2rem 1rem;
@@ -74,6 +79,16 @@
         }
       }
     }
+  }
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 11ch;
   }
 }
 
