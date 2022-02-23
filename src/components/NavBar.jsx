@@ -1,12 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 export default function NavBar() {
+  const [isLoading, setIsLoading] = useState(true)
+
+  const showLoader = () => {
+    return <i className="fas fa-spinner fa-spin"></i>
+  }
+
   return (
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/avatar.jpg" alt="Alex Fourmy" />
+          <div style={{ display: isLoading ? 'block' : 'none' }}>
+            {showLoader()}
+          </div>
+          <div style={{ display: isLoading ? 'none' : 'block' }}>
+            <img
+              src="./media/avatar.jpg"
+              alt="Alex Fourmy"
+              onLoad={() => setIsLoading(false)}
+            />
+          </div>
           <h3>Alex Fourmy</h3>
         </div>
       </div>
