@@ -32,6 +32,7 @@
       .imgContainer {
         position: relative;
         height: 10rem;
+        padding: 0.3rem;
         width: auto;
 
         .fa-spinner {
@@ -44,16 +45,20 @@
       }
 
       img {
-        height: 10rem;
+        height: 9.2rem;
         width: auto;
         border-radius: 50%;
         box-shadow: 0 0 0 2px $color-5;
-        transition: 0.2s ease;
+        // border: $border;
+        transition: 0.1s ease-out;
+        overflow: hidden;
+        animation: rotatingPic1 0.3s linear 2.1s;
 
         &:hover {
-          transform: scale(1.1);
+          animation: rotatingPic2 0.3s linear;
         }
       }
+
       h3 {
         font-size: 1.3rem;
         text-transform: uppercase;
@@ -62,7 +67,8 @@
         overflow: hidden;
         white-space: nowrap;
         width: 14ch;
-        animation: typing 2s steps(11);
+        border-right: 3px solid transparent;
+        animation: typing 2s steps(11), blinking-cursor 3s step-end;
       }
     }
   }
@@ -100,6 +106,26 @@
     }
   }
 }
+@keyframes rotatingPic1 {
+  50% {
+    transform: rotate(-5deg) scale(1.05);
+    box-shadow: 0 0 0 2px $white;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    box-shadow: 0 0 0 2px $color-5;
+  }
+}
+@keyframes rotatingPic2 {
+  50% {
+    transform: rotate(-5deg) scale(1.05);
+    box-shadow: 0 0 0 2px $white;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    box-shadow: 0 0 0 2px $color-5;
+  }
+}
 
 @keyframes typing {
   0% {
@@ -108,6 +134,40 @@
 
   100% {
     width: 11ch;
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: $color-5;
+  }
+  10% {
+    border-color: transparent;
+  }
+  20% {
+    border-color: $color-5;
+  }
+  30% {
+    border-color: transparent;
+  }
+  40% {
+    border-color: $color-5;
+  }
+  50% {
+    border-color: transparent;
+  }
+  60% {
+    border-color: $color-5;
+  }
+  70% {
+    border-color: transparent;
+  }
+  80% {
+    border-color: $color-5;
+  }
+  90% {
+    border-color: $color-5;
   }
 }
 
