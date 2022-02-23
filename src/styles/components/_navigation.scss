@@ -29,12 +29,18 @@
       transform: translateX(-50%);
       width: 100%;
 
-      .fa-spinner {
-        position: absolute;
-        top: 40%;
-        left: 40%;
-        font-size: 3rem;
-        color: $color-5;
+      .imgContainer {
+        position: relative;
+        height: 10rem;
+        width: auto;
+
+        .fa-spinner {
+          position: absolute;
+          top: 40%;
+          left: 40%;
+          font-size: 3rem;
+          color: $color-5;
+        }
       }
 
       img {
@@ -42,6 +48,11 @@
         width: auto;
         border-radius: 50%;
         box-shadow: 0 0 0 2px $color-5;
+        transition: 0.2s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
       h3 {
         font-size: 1.3rem;
