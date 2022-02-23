@@ -40,7 +40,8 @@
         text-shadow: 1px 4px 1px $color-1;
       }
       .pdf {
-        a {
+        .downloadBtn {
+          position: relative;
           font-size: 1.5rem;
           background: $color-5;
           border: 1px solid $color-5;
