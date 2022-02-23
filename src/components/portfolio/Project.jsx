@@ -14,29 +14,31 @@ export default function Project(props) {
   }
 
   return (
-    <div className="project">
-      <div className="icons">
-        {languagesIcons.map(icon => (
-          <img src={icon} alt="language" />
-        ))}
-      </div>
-      <h3>{name}</h3>
+    <>
+      <div className="project">
+        <div className="icons">
+          {languagesIcons.map(icon => (
+            <img src={icon} alt="language" />
+          ))}
+        </div>
+        <h3>{name}</h3>
 
-      <div style={{ display: isLoading ? 'block' : 'none' }}>
-        {showLoader()}
-      </div>
-      <div style={{ display: isLoading ? 'none' : 'block' }}>
-        <img
-          src={picture}
-          alt="project"
-          onClick={handleInfo}
-          onLoad={() => setIsLoading(false)}
-        />
-      </div>
-      <span className="infos">
-        <i className="fas fa-plus-circle" onClick={handleInfo}></i>
-      </span>
+        <div style={{ display: isLoading ? 'block' : 'none' }}>
+          {showLoader()}
+        </div>
+        <div style={{ display: isLoading ? 'none' : 'block' }}>
+          <img
+            src={picture}
+            alt="project"
+            onClick={handleInfo}
+            onLoad={() => setIsLoading(false)}
+          />
+        </div>
 
+        <span className="infos">
+          <i className="fas fa-plus-circle" onClick={handleInfo}></i>
+        </span>
+      </div>
       {showInfo && (
         <div className="showInfos">
           <div className="infosContent">
@@ -69,7 +71,7 @@ export default function Project(props) {
           </div>
         </div>
       )}
-    </div>
+    </>
   )
 }
 
