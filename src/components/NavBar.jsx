@@ -12,15 +12,17 @@ export default function NavBar() {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <div style={{ display: isLoading ? 'block' : 'none' }}>
-            {showLoader()}
-          </div>
-          <div style={{ display: isLoading ? 'none' : 'block' }}>
-            <img
-              src="./media/avatar.jpg"
-              alt="Alex Fourmy"
-              onLoad={() => setIsLoading(false)}
-            />
+          <div className="imgContainer">
+            <div style={{ display: isLoading ? 'block' : 'none' }}>
+              {showLoader()}
+            </div>
+            <div style={{ display: isLoading ? 'none' : 'block' }}>
+              <img
+                src="./media/avatar.jpg"
+                alt="Alex Fourmy"
+                onLoad={() => setIsLoading(false)}
+              />
+            </div>
           </div>
           <h3>Alex Fourmy</h3>
         </div>
