@@ -29,6 +29,14 @@
       transform: translateX(-50%);
       width: 100%;
 
+      .fa-spinner {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        font-size: 3rem;
+        color: $color-5;
+      }
+
       img {
         height: 10rem;
         width: auto;
