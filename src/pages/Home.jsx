@@ -7,8 +7,34 @@ export default function Home() {
       <NavBar />
       <div className="homeContent">
         <div className="content">
-          <h1>Alex Fourmy</h1>
-          <h2>Frontend Developer</h2>
+          <h1 className="animate__animated animate__bounceInLeft">
+            Alex Fourmy
+          </h1>
+
+          <div id="container">
+            <div id="flip">
+              <div>
+                <div>Practical</div>
+              </div>
+              <div>
+                <div>Learning</div>
+              </div>
+              <div>
+                <div>Frontend</div>
+              </div>
+              {/* <div>
+                <div>Skillful</div>
+              </div>
+              <div>
+                <div>Diligent</div>
+              </div>
+              <div>
+                <div>Flexible</div>
+              </div> */}
+            </div>
+            Developer
+          </div>
+
           <div className="pdf">
             <a href="./media/CV.pdf" target="_blank" className="downloadBtn">
               Download CV
