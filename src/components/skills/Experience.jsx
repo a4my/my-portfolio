@@ -20,8 +20,8 @@ export default function Experience() {
           Assist customers, District Sales Managers and retailers with enquiries
           related to customer service, orders, stock, product information and
           returns. Awarded “Employee of the Year” 2018. Strive to achieve
-          budgeted sales targets for allocated sales areas. Established and
-          maintained positive working relationships with customers and potential
+          budgeted sales targets for allocated sales areas. Establish and
+          maintain positive working relationships with customers and potential
           new clients.
         </p>
       </div>
