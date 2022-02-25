@@ -14,7 +14,7 @@ export default function Home() {
           <div id="container">
             <div id="flip">
               <div>
-                <div>Practical</div>
+                <div>Creative</div>
               </div>
               <div>
                 <div>Learning</div>
@@ -22,15 +22,6 @@ export default function Home() {
               <div>
                 <div>Frontend</div>
               </div>
-              {/* <div>
-                <div>Skillful</div>
-              </div>
-              <div>
-                <div>Diligent</div>
-              </div>
-              <div>
-                <div>Flexible</div>
-              </div> */}
             </div>
             Developer
           </div>
@@ -39,6 +30,14 @@ export default function Home() {
             <a href="./media/CV.pdf" target="_blank" className="downloadBtn">
               Download CV
             </a>
+            <p className="hiddenAdjectives adj-1">Positive</p>
+            <p className="hiddenAdjectives adj-2">Rigorous</p>
+            <p className="hiddenAdjectives adj-3">Adaptable</p>
+            <p className="hiddenAdjectives adj-4">Determined</p>
+            <p className="hiddenAdjectives adj-5">Proactive</p>
+            <p className="hiddenAdjectives adj-6">Insatiable</p>
+            <p className="hiddenAdjectives adj-7">Focused</p>
+            <p className="hiddenAdjectives adj-8">Structured</p>
           </div>
         </div>
       </div>
