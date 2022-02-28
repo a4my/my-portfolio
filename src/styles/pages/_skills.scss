@@ -3,7 +3,7 @@
     min-height: $minHeight;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     display: grid;
     grid-template-columns: 38% 1fr 1fr;
     grid-template-rows: 70% 30%;
@@ -195,7 +195,29 @@
     }
   }
 }
-@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 1200px) {
+  .skills {
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .skills {
+    .experience {
+      // h4 {
+      //   font-size: 1rem;
+      // }
+
+      p {
+        padding: 0 !important;
+        font-size: 0.9rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1145px) {
   .skillsContent {
     h3 {
       font-size: 1.2rem !important;
@@ -212,9 +234,19 @@
     }
   }
 }
+
+@media screen and (max-width: 1145px) {
+  .skillsContent {
+    .hobbies {
+      padding-left: 1rem !important;
+    }
+  }
+}
+
 @media screen and (max-width: 850px) {
   .skillsContent {
     margin-left: 0 !important;
+    margin-top: 1rem !important;
 
     h4 {
       font-size: 0.9rem !important;
@@ -294,7 +326,7 @@
     }
     .hobbies {
       grid-area: 4 !important;
-      margin-top: 0.5rem !important;
+      margin: 0.5rem !important;
 
       span {
         transform: translateX(1.5rem) !important;
