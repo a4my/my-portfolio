@@ -6,7 +6,7 @@
   border-radius: $border-radius;
   border: $border;
   box-shadow: 0 1px 5px #222;
-  margin: 0 auto;
+  margin: 0rem auto 0.5rem auto;
 
   h2 {
     text-align: center;
@@ -18,6 +18,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    li {
+      margin-right: 1rem;
+    }
 
     i {
       margin-right: 0.4rem;
@@ -117,5 +121,32 @@
     .text {
       text-align: justify;
     }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .infoContainer {
+    margin: 1rem;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        margin-top: 1rem;
+      }
+
+      li:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .showLocation {
+    display: none;
   }
 }
