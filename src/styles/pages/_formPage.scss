@@ -1,5 +1,9 @@
 .contact {
   .contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: $border;
     border-radius: $border-radius;
     box-shadow: $shadow;
@@ -20,5 +24,18 @@
       z-index: -1;
       filter: brightness(30%);
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact {
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contactContainer {
+    margin-left: 0rem !important;
+    margin-top: 1rem !important;
   }
 }
