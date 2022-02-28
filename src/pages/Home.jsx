@@ -38,6 +38,12 @@ export default function Home() {
             <p className="hiddenAdjectives adj-6">Insatiable</p>
             <p className="hiddenAdjectives adj-7">Focused</p>
             <p className="hiddenAdjectives adj-8">Structured</p>
+            {/* <div className="impacts imp-1"></div>
+            <div className="impacts imp-2"></div>
+            <div className="impacts imp-3"></div>
+            <div className="impacts imp-4"></div>
+            <div className="impacts imp-5"></div>
+            <div className="impacts imp-6"></div> */}
           </div>
         </div>
       </div>
