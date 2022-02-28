@@ -19,7 +19,7 @@ export default function NavBar() {
             <div id="avatar" style={{ display: isLoading ? 'none' : 'block' }}>
               <img
                 className="avatar"
-                src="./media/avatar.jpg"
+                src="./media/alex-1.png"
                 alt="Alex Fourmy"
                 onLoad={() => setIsLoading(false)}
               />
