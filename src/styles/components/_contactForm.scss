@@ -1,10 +1,10 @@
 .contact-form {
-  margin: 7% auto 3rem auto;
+  margin: 1rem auto 1rem auto;
   max-width: 50%;
   position: relative;
   max-width: 350px;
   background: $color-1;
-  padding: 1rem 3rem 0.2rem 3rem;
+  padding: 1rem 2rem 0.2rem 2rem;
   // z-index: 2;
   border-radius: $border-radius;
   border: $border;
@@ -12,12 +12,19 @@
   min-width: 440px;
   min-height: 200px;
 
+  @media screen and (max-width: 850px) {
+    padding: 1rem !important;
+  }
+
   @media screen and (max-width: 740px) {
-    margin: 2rem auto;
+    margin: 1rem auto;
   }
-  @media screen and (max-width: 440px) {
-    margin-left: 2rem;
+
+  @media screen and (max-width: 470px) {
+    margin: 1rem 0.5rem !important;
+    min-width: 90%;
   }
+
   h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -77,10 +84,10 @@
           font-size: 1rem;
         }
 
-        @media screen and (max-width: 540px) {
-          width: 75%;
-          padding: 12px 0 6px;
-        }
+        // @media screen and (max-width: 540px) {
+        //   width: 75%;
+        //   padding: 12px 0 6px;
+        // }
       }
 
       input:-webkit-autofill,
@@ -99,9 +106,9 @@
       position: relative;
       width: 100%;
 
-      @media screen and (max-width: 540px) {
-        width: 75%;
-      }
+      // @media screen and (max-width: 470px) {
+      //   width: 75%;
+      // }
 
       #not-mail {
         display: none;
@@ -121,10 +128,10 @@
       padding: 0.5rem;
       resize: none;
 
-      @media screen and (max-width: 540px) {
-        width: 75%;
-        padding: 12px 0;
-      }
+      // @media screen and (max-width: 470px) {
+      //   width: 75%;
+      //   // padding: 12px 0;
+      // }
     }
   }
 
@@ -238,10 +245,10 @@
     @media screen and (max-width: 540px) {
       display: none;
     }
-    .content {
-      position: absolute;
-      right: 10px;
-    }
+    // .content {
+    //   position: absolute;
+    //   right: 10px;
+    // }
   }
   .phone {
     position: relative;
