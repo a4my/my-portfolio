@@ -27,15 +27,119 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
+    <title>Alex Fourmy - Portfolio</title>
+
     <script type="text/javascript">
       ;(function () {
         emailjs.init('user_5zvP8j16hv0cAvPRPd9Ae')
       })()
     </script>
 
-    <title>Alex Fourmy - Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      .loader-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        background: var(--bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100vw;
+      }
+
+      .loader-container.fade-out {
+        top: -120%;
+      }
+
+      .loader {
+        margin-top: 100px;
+        width: 200px;
+        height: 200px;
+        position: relative;
+      }
+
+      .loader .outer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-left: 5px solid var(--main-color);
+        border-right: 5px solid var(--main-color);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-radius: 50%;
+        animation: rotate28 2s linear infinite;
+      }
+
+      .loader .middle {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        border-left: 5px solid #fff;
+        border-right: 5px solid #fff;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-radius: 50%;
+        animation: rotate28 2s linear infinite reverse;
+      }
+
+      .loader .inner {
+        position: absolute;
+        top: 60px;
+        left: 60px;
+        right: 60px;
+        bottom: 60px;
+        border-left: 5px solid var(--main-color);
+        border-right: 5px solid var(--main-color);
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-radius: 50%;
+        animation: rotate28 2s linear infinite;
+      }
+
+      .loader .circle {
+        position: absolute;
+        top: 90px;
+        right: 90px;
+        left: 90px;
+        bottom: 90px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+
+      @keyframes rotate28 {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loader-container">
+        <div class="loader">
+          <div class="outer"></div>
+          <div class="middle"></div>
+          <div class="inner"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
