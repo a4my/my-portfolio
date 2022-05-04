@@ -27,10 +27,10 @@ export default function OtherSkills() {
             <i className="fas fa-check"></i>UI/UX Design
           </li>
           <li>
-            <i className="fas fa-check"></i>Final Cut Pro
+            <i className="fas fa-check"></i>Bootstrap
           </li>
           <li>
-            <i className="fas fa-check"></i>Cubase SX3
+            <i className="fas fa-check"></i>AWS
           </li>
         </ul>
       </div>
