@@ -45,8 +45,8 @@ class Languages extends Component {
       {
         id: 3,
         icon: './media/icons/bootstrap.svg',
-        value: 'Bootstrap',
-        xp: 0.7
+        value: 'Angular',
+        xp: 0.2
       },
       {
         id: 4,
