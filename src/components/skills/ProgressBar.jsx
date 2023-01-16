@@ -6,13 +6,13 @@ export default function ProgressBar(props) {
       <h3>{props.title}</h3>
       <div className="years">
         <span>Experience</span>
-        <span>1 year</span>
-        <span>2 years</span>
+        <span>2 year</span>
+        <span>3 years</span>
       </div>
 
       <div>
         {props.languages.map(item => {
-          let xpYears = 2
+          let xpYears = 3
           let progressBar = (item.xp / xpYears) * 100 + '%'
 
           return (

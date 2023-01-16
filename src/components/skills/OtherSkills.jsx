@@ -21,13 +21,13 @@ export default function OtherSkills() {
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check"></i>JQuery
+            <i className="fas fa-check"></i>Typescript
           </li>
           <li>
             <i className="fas fa-check"></i>UI/UX Design
           </li>
           <li>
-            <i className="fas fa-check"></i>Bootstrap
+            <i className="fas fa-check"></i>TailwindCSS
           </li>
           <li>
             <i className="fas fa-check"></i>AWS

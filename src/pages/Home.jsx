@@ -27,7 +27,11 @@ export default function Home() {
           </div>
 
           <div className="pdf">
-            <a href="./media/CV.pdf" target="_blank" className="downloadBtn">
+            <a
+              href="./media/CV_Frontend_Developer-Alex_Fourmy.pdf"
+              target="_blank"
+              className="downloadBtn"
+            >
               Download CV
             </a>
             <p className="hiddenAdjectives adj-1">Positive</p>
