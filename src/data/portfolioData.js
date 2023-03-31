@@ -88,12 +88,8 @@ export const portfolioData = [
   {
     id: 8,
     name: 'Game List',
-    languages: ['css', 'sass', 'react'],
-    languagesIcons: [
-      './media/icons/css3.svg',
-      './media/icons/sass.svg',
-      './media/icons/react.svg'
-    ],
+    languages: ['css', 'sass'],
+    languagesIcons: ['./media/icons/css3.svg', './media/icons/sass.svg'],
     source: 'https://github.com/a4my/react-videogame',
     demo: 'https://a4my.github.io/react-videogame/',
     info: 'This React App is supposed to be an app that lists video games and where you can search for a video game. This project has parts that are mainly hard-coded and you cannot use the searchbar to search for a specific video game. However, the list of video games is coming from an API.',
