@@ -128,5 +128,15 @@ export const portfolioData = [
     demo: 'https://a4my.github.io/blue-planet/',
     info: 'This project is a landing page with a caroussel as a background. At the time of building this page, the main focus was to practice making landing pages as well as practicing fundamentals html and CSS. ',
     picture: './media/project11.JPG'
+  },
+  {
+    id: 12,
+    name: 'Instagram Clone',
+    languages: ['next.js', 'react'],
+    languagesIcons: ['./media/icons/nextjs.svg', './media/icons/react.svg'],
+    source: 'https://github.com/a4my/instagram-clone',
+    demo: 'https://instagram-clone-jc7w.vercel.app/Login',
+    info: "This is a clone of famous Instagram app, I'm still working on it and it is one of my latest project. I'm building it with React, Next.js, Firebase and TypeScript. ",
+    picture: './media/project12.JPG'
   }
 ]
