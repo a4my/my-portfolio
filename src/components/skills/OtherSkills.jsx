@@ -13,15 +13,15 @@ export default function OtherSkills() {
             <i className="fas fa-check"></i>MongoDB
           </li>
           <li>
-            <i className="fas fa-check"></i>Github
+            <i className="fas fa-check"></i>BitBucket
           </li>
           <li>
-            <i className="fas fa-check"></i>VS Code
+            <i className="fas fa-check"></i>Firebase
           </li>
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check"></i>Typescript
+            <i className="fas fa-check"></i>NodeJS
           </li>
           <li>
             <i className="fas fa-check"></i>UI/UX Design

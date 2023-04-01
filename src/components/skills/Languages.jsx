@@ -8,25 +8,25 @@ class Languages extends Component {
         id: 1,
         icon: './media/icons/html.svg',
         value: 'HTML',
-        xp: 2.2
+        xp: 2
       },
       {
         id: 2,
         icon: './media/icons/css3.svg',
         value: 'CSS',
-        xp: 2.2
+        xp: 2
       },
       {
         id: 3,
         icon: './media/icons/javascript.svg',
         value: 'JavaScript',
-        xp: 2
+        xp: 1.8
       },
       {
         id: 4,
         icon: './media/icons/nodejs.svg',
-        value: 'NodeJS',
-        xp: 1.6
+        value: 'TypeScript',
+        xp: 1
       }
     ],
     frameworks: [
@@ -46,7 +46,7 @@ class Languages extends Component {
         id: 3,
         icon: './media/icons/bootstrap.svg',
         value: 'Angular',
-        xp: 1
+        xp: 0.8
       },
       {
         id: 4,
