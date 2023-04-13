@@ -129,10 +129,28 @@ export const portfolioData = [
     id: 12,
     name: 'Instagram Clone',
     languages: ['next.js', 'react'],
-    languagesIcons: ['./media/icons/nextjs.svg', './media/icons/react.svg'],
+    languagesIcons: [
+      './media/icons/nextjs.svg',
+      './media/icons/react.svg',
+      './media/icons/tailwindcss.svg'
+    ],
     source: 'https://github.com/a4my/instagram-clone',
     demo: 'https://instagram-clone-jc7w.vercel.app/Login',
     info: "This is a clone of famous Instagram app, I'm still working on it and it is one of my latest project. I'm building it with React, Next.js, Firebase and TypeScript. ",
     picture: './media/project12.JPG'
+  },
+  {
+    id: 13,
+    name: 'Crypto Landing Page',
+    languages: ['react'],
+    languagesIcons: [
+      './media/icons/react.svg',
+      './media/icons/javascript.svg',
+      './media/icons/tailwindcss.svg'
+    ],
+    source: 'https://github.com/a4my/react-crypto-lp',
+    demo: 'https://react-crypto-lp.vercel.app/',
+    info: "Landing page of fake company called CRYPTO. I've built this project to practice my React skills as well as using TailwindCSS. ",
+    picture: './media/project13.JPG'
   }
 ]
