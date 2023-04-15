@@ -118,7 +118,7 @@ export const portfolioData = [
   {
     id: 11,
     name: 'Blue Planet',
-    languages: ['css', 'sass'],
+    languages: [],
     languagesIcons: ['./media/icons/css3.svg', './media/icons/javascript.svg'],
     source: 'https://github.com/a4my/blue-planet',
     demo: 'https://a4my.github.io/blue-planet/',
@@ -166,5 +166,15 @@ export const portfolioData = [
     demo: 'https://photography-website-react.vercel.app/',
     info: 'Photographer website built with React and TailwindCSS',
     picture: './media/project14.JPG'
+  },
+  {
+    id: 15,
+    name: 'Tesla Landing Page',
+    languages: ['css'],
+    languagesIcons: ['./media/icons/css3.svg', './media/icons/tailwindcss.svg'],
+    source: 'https://github.com/a4my/tesla-landing-page',
+    demo: 'https://a4my.github.io/tesla-landing-page/#modelS',
+    info: 'Tesla landing page',
+    picture: './media/project15.JPG'
   }
 ]
