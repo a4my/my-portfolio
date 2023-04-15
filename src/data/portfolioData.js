@@ -12,7 +12,7 @@ export const portfolioData = [
   {
     id: 2,
     name: 'Weather App',
-    languages: ['next.js', 'react', 'javascript'],
+    languages: ['next.js', 'javascript'],
     languagesIcons: [
       './media/icons/javascript.svg',
       './media/icons/nextjs.svg',
@@ -176,5 +176,15 @@ export const portfolioData = [
     demo: 'https://a4my.github.io/tesla-landing-page/#modelS',
     info: 'Tesla landing page',
     picture: './media/project15.JPG'
+  },
+  {
+    id: 16,
+    name: 'Book A Room',
+    languages: ['react'],
+    languagesIcons: ['./media/icons/react.svg', './media/icons/javascript.svg'],
+    source: 'https://github.com/a4my/react-book-a-room',
+    demo: 'https://react-book-a-room-git-main-a4my.vercel.app/',
+    info: 'Book A Room is a Hotel Room booking website built with React.',
+    picture: './media/project16.JPG'
   }
 ]
