@@ -123,11 +123,14 @@
       margin: 0 0 0.5rem 0.5rem;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
-      grid-template-areas:
-        '1'
-        '2'
-        '3';
+      // grid-template-rows: 10% 1fr 1fr;
+      // grid-template-areas:
+      //   '1'
+      //   '2'
+      //   '3';
+      grid-template-rows: 10% 1fr;
+      grid-template-areas: '1' '2';
+      overflow: hidden;
 
       h3 {
         grid-area: 1;
@@ -147,9 +150,9 @@
       .exp-1 {
         grid-area: 2;
       }
-      .exp-2 {
-        grid-area: 3;
-      }
+      // .exp-2 {
+      //   grid-area: 3;
+      // }
     }
     .otherSkills {
       grid-area: O;
