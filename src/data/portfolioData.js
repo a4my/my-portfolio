@@ -155,7 +155,7 @@ export const portfolioData = [
   },
   {
     id: 14,
-    name: 'Photographer Website',
+    name: 'Photo Website',
     languages: ['react'],
     languagesIcons: [
       './media/icons/react.svg',
