@@ -98,7 +98,7 @@ export const portfolioData = [
   {
     id: 9,
     name: 'Fun with Flags',
-    languages: ['javascript', 'react'],
+    languages: ['javascript'],
     languagesIcons: ['./media/icons/javascript.svg', './media/icons/react.svg'],
     source: 'https://github.com/a4my/react-flag-search',
     demo: 'https://flag-search.herokuapp.com/',
@@ -152,5 +152,19 @@ export const portfolioData = [
     demo: 'https://react-crypto-lp.vercel.app/',
     info: "Landing page of fake company called CRYPTO. I've built this project to practice my React skills as well as using TailwindCSS. ",
     picture: './media/project13.JPG'
+  },
+  {
+    id: 14,
+    name: 'Photographer Website',
+    languages: ['react'],
+    languagesIcons: [
+      './media/icons/react.svg',
+      './media/icons/javascript.svg',
+      './media/icons/tailwindcss.svg'
+    ],
+    source: 'https://github.com/a4my/photography-website-react',
+    demo: 'https://photography-website-react.vercel.app/',
+    info: 'Photographer website built with React and TailwindCSS',
+    picture: './media/project14.JPG'
   }
 ]
