@@ -78,7 +78,7 @@ export const portfolioData = [
   {
     id: 7,
     name: 'To Do List',
-    languages: ['javascript', 'react'],
+    languages: ['javascript'],
     languagesIcons: ['./media/icons/javascript.svg', './media/icons/react.svg'],
     source: 'https://github.com/a4my/mern-todo-list',
     demo: 'https://my-todolist-mern.herokuapp.com/dashboard',
