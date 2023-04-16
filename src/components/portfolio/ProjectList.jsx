@@ -11,7 +11,7 @@ export default class ProjectList extends Component {
       { id: 3, value: 'javascript' },
       { id: 4, value: 'css' }
     ],
-    selectedRadio: 'javascript'
+    selectedRadio: 'react'
   }
 
   handleRadio = e => {
