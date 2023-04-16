@@ -186,5 +186,15 @@ export const portfolioData = [
     demo: 'https://react-book-a-room-git-main-a4my.vercel.app/',
     info: 'Book A Room is a Hotel Room booking website built with React.',
     picture: './media/project16.JPG'
+  },
+  {
+    id: 17,
+    name: 'Netflix Clone',
+    languages: ['react'],
+    languagesIcons: ['./media/icons/javascript.svg', './media/icons/react.svg'],
+    source: 'https://github.com/a4my/my-netflix-clone',
+    demo: 'https://my-netflix-clone-3ll6.vercel.app/',
+    info: 'This is my version of the famous video on demand platform. Written in Javascript and uses React as a framework. This app utilises Firebase to authorise users serverside, additionally users can login to the app through their registered Google account. The TMDb api was used to gather movies/series data (most popular, top rated, new series, etc).',
+    picture: './media/project17.JPG'
   }
 ]
