@@ -53,13 +53,13 @@ export const portfolioData = [
   },
   {
     id: 5,
-    name: 'Movie List',
-    languages: ['javascript', 'react'],
+    name: 'Netflix Clone',
+    languages: ['react'],
     languagesIcons: ['./media/icons/javascript.svg', './media/icons/react.svg'],
-    source: 'https://github.com/a4my/react-movielist',
-    demo: 'https://a4my.github.io/react-movielist/',
-    info: 'This project is one of my first React projects, it is a simple watchlist where you can add and track the movies you would like to watch or that you have already watched.',
-    picture: './media/project5.JPG'
+    source: 'https://github.com/a4my/my-netflix-clone',
+    demo: 'https://my-netflix-clone-3ll6.vercel.app/',
+    info: 'This is my version of the famous video on demand platform. Written in Javascript and uses React as a framework. This app utilises Firebase to authorise users serverside, additionally users can login to the app through their registered Google account. The TMDb api was used to gather movies/series data (most popular, top rated, new series, etc).',
+    picture: './media/project17.JPG'
   },
   {
     id: 6,
@@ -189,12 +189,12 @@ export const portfolioData = [
   },
   {
     id: 17,
-    name: 'Netflix Clone',
-    languages: ['react'],
+    name: 'Movie List',
+    languages: ['javascript', 'react'],
     languagesIcons: ['./media/icons/javascript.svg', './media/icons/react.svg'],
-    source: 'https://github.com/a4my/my-netflix-clone',
-    demo: 'https://my-netflix-clone-3ll6.vercel.app/',
-    info: 'This is my version of the famous video on demand platform. Written in Javascript and uses React as a framework. This app utilises Firebase to authorise users serverside, additionally users can login to the app through their registered Google account. The TMDb api was used to gather movies/series data (most popular, top rated, new series, etc).',
-    picture: './media/project17.JPG'
+    source: 'https://github.com/a4my/react-movielist',
+    demo: 'https://a4my.github.io/react-movielist/',
+    info: 'This project is one of my first React projects, it is a simple watchlist where you can add and track the movies you would like to watch or that you have already watched.',
+    picture: './media/project5.JPG'
   }
 ]
