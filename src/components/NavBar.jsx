@@ -96,7 +96,7 @@ export default function NavBar() {
           </li>
         </ul>
         <div className="signature">
-          <p>A4MY - 2022</p>
+          <p>A4MY - 2024</p>
         </div>
       </div>
     </div>

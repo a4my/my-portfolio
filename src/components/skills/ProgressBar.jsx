@@ -6,8 +6,8 @@ export default function ProgressBar(props) {
       <h3>{props.title}</h3>
       <div className="years">
         <span>Experience</span>
-        <span>2 year</span>
-        <span>3 years</span>
+        <span>3 year</span>
+        <span>4 years</span>
       </div>
 
       <div>

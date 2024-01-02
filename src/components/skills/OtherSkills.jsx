@@ -7,10 +7,10 @@ export default function OtherSkills() {
       <div className="list">
         <ul>
           <li>
-            <i className="fas fa-check"></i>Express
+            <i className="fas fa-check"></i>AWS
           </li>
           <li>
-            <i className="fas fa-check"></i>MongoDB
+            <i className="fas fa-check"></i>Firebase
           </li>
           <li>
             <i className="fas fa-check"></i>BitBucket
@@ -21,16 +21,16 @@ export default function OtherSkills() {
         </ul>
         <ul>
           <li>
-            <i className="fas fa-check"></i>NodeJS
+            <i className="fas fa-check"></i>MERN
           </li>
           <li>
-            <i className="fas fa-check"></i>UI/UX Design
+            <i className="fas fa-check"></i>Jest
           </li>
           <li>
             <i className="fas fa-check"></i>TailwindCSS
           </li>
           <li>
-            <i className="fas fa-check"></i>AWS
+            <i className="fas fa-check"></i>Jenkins
           </li>
         </ul>
       </div>

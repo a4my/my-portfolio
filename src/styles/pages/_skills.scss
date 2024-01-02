@@ -128,7 +128,7 @@
       //   '1'
       //   '2'
       //   '3';
-      grid-template-rows: 10% 1fr;
+      grid-template-rows: 10% 1fr 1fr;
       grid-template-areas: '1' '2';
       overflow: hidden;
 
@@ -148,7 +148,8 @@
         padding: 0 1rem;
       }
       .exp-1 {
-        grid-area: 2;
+        // grid-area: 1;
+        // padding-bottom: -1rem;
       }
       // .exp-2 {
       //   grid-area: 3;

@@ -34,7 +34,7 @@ export default function InfoBox() {
       <ul>
         <li>
           <i className="fas fa-map-marker-alt"></i>
-          <span onClick={handleShowLocation}>Happy to relocate!</span>
+          <span onClick={handleShowLocation}>Hybrid/Remote</span>
         </li>
         <li>
           <i className="fas fa-mobile-alt"></i>
@@ -75,13 +75,11 @@ export default function InfoBox() {
 
             <div className="address">
               <i className="fas fa-map-marker-alt"></i>
-              <span>13 Repton Avenue TN23 3RX, Ashford UK</span>
+              <span>Cheeseman's Terrace, W149XJ, London UK</span>
             </div>
 
             <p className="text">
-              I am based in Ashford and although I don't have a preference
-              between working remotely or on-site, I would definitely consider
-              relocating closer to your office! 😛
+              I am based in London and I am available for remote work anywhere or hybrid work in London.
             </p>
 
             <div className="btnContainer">
